@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Food Gallery</title>
+  <style>
+    body {
+      overflow-x: hidden;
+      margin: 10px;
+      font-family: Arial, sans-serif;
+    }
+
+    .header {
+        max-width: 1200px;
+      height: 10vh;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 10px;
+      background-color: #f8f8f8;
+      position:sticky;
+      top: 0px;
+      }
+      
+
+    .header h1 {
+      margin: 0;
+      font-size: 1.5em;
+    }
+
+    .header img {
+      width: 50px;
+      height: 50px;
+    }
+
+    .page1 {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 20px;
+    }
+
+    .page1 img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .page1 h3 {
+      margin: 10px 0 5px;
+    }
+
+    .page1 p {
+      margin: 0;
+      color: #555;
+    }
+
+    .card {
+      background-color: #fff;
+      padding: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+    .navbar{
+        display: flex;
+        justify-content: center;
+        height: 20vh;
+        gap: 20px;
+        
+    }
+    .navbar>div{
+       background-color: black;
+       color: white;
+        width: 2%;
+        height: 15%;
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+  .navbar>div:hover{
+    transform: scale(2.0);
+    color: gold;
+  }
+  .h12{
+    display:grid;
+    justify-content: center;
+  }
+    .img2{
+        display: grid;
+        justify-content: center;
+    }
+    .page2d{
+        display: grid;
+        justify-content: center;
+        padding:0px 50px 0px 50px;
+    }
+    .page3{
+        max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px;
+    }
+    .blogspot{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 1fr 1fr 1fr;
+        height: 10px;
+    }
+    .head5{
+        grid-column: 1/4;
+    }
+    .lorem{
+       grid-column: 1/2;
+
+    }
+    .ipsum{
+        grid-column:2/3;
+    }
+    .populartags{
+       max-width: 1200px;
+      margin: auto;
+      display: grid;
+
+      
+    }
+    .popularheading{
+        display: grid;
+        justify-content: center;
+        
+    }
+    .tags{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px 10px;
+    }
+    .tags>div{
+        display: grid;
+       
+        grid-column: 50px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: black;
+    }
+    .tags>div:hover{
+        transform: scale(2.0);
+        color: seagreen;
+    }
+    .blogspot>div:hover{
+        transform: scale(2.0);
+    }
+    .footer>div:hover{
+        transform: scale(1.8);
+    
+    }
+   .popularheading:hover{
+    transform: scale(2.0);
+   }
+   
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div><h1><img src="list.png" alt="Menu Icon" /></h1></div>
+    <div><h1>My Food</h1></div>
+    <div><h1>Mail</h1></div>
+  </div>
+
+  <div class="page1">
+    <div class="card">
+      <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="Cherries" />
+      <h3>The Perfect Sandwich, A Real NYC Classic</h3>
+      <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+    </div>
+    <div class="card">
+      <img src="https://www.w3schools.com/w3images/cherries.jpg" alt="Cherries" />
+      <h3>Cherries, interrupted</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum. What else?</p>
+    </div>
+    <div class="card">
+      <img src="https://www.w3schools.com/w3images/steak.jpg" alt="Cherries" />
+      <h3>Let Me Tell You About This Steak</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum. What else?</p>
+    </div>
+    <div class="card">
+      <img src="https://www.w3schools.com/w3images/wine.jpg" alt="Cherries" />
+      <h3>Once Again, Robust Wine and Vegetable Pasta</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum. What else?</p>
+    </div>
+    <div class="card">
+      <img src="https://www.w3schools.com/w3images/popsicle.jpg" alt="Cherries" />
+      <h3>All I Need Is a Popsicle</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum. What else?</p>
+    </div>
+    <div class="card">
+      <img src="https://www.w3schools.com/w3images/salmon.jpg" alt="Cherries" />
+      <h3>Salmon For Your Skin</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum. What else?</p>
+    </div>
+    <div class="card">
+      <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="Cherries" />
+      <h3>The Perfect Sandwich, A Real Classic</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum. What else?</p>
+    </div>
+    <div class="card">
+      <img src="https://www.w3schools.com/w3images/croissant.jpg" alt="Cherries" />
+      <h3>Le French</h3>
+      <p>Lorem ipsum text praesent tincidunt ipsum lipsum. What else?</p>
+    </div>
+</div>
+  
+  <div class="navbar">
+  <div><<</div>
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+  <div>4</div>
+  <div>5</div>
+  <div>>></div>
+  </div>
+
+<div class="page2">
+    <h1 class="h12">About Me,The Food Man</h1>
+    <div class="img2"><img src="https://www.w3schools.com/w3images/chef.jpg" alt=""></div>
+    <div >
+        <h1 class="page2d">I am Who I Am!</h1>
+    <h4 class="page2d">With Passion For Real, Good Food</h4>
+    <p class="page2d">Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+    </div>
+</div>
+<div class="page3">
+    <div class="footer">
+        <div>
+            <h1>FOOTER</h1>
+            <h5>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+            Powered by w3.css
+            </h5>
+        </div>
+    </div>
+    <div class="blogspot">
+        <div class="head5">
+            <h1 >BLOG POSTS</h5>
+        </div>
+        <div class="lorem">
+        <div><img src="https://www.w3schools.com/w3images/workshop.jpg" width="50px" alt=""></div>
+        <div>LOREM</div>
+        <div>Sed mattis nunc</div>
+    </div>
+        <div class="ipsum">
+        <div><img src="https://www.w3schools.com/w3images/gondol.jpg" width="50px" alt=""></div>
+        <div>ipsum</div>
+        <div>praces tinci sed</div>
+    </div>
+    </div>
+    <div class="populartags">
+        <div class="popularheading">
+            <h2>POPULAR TAGS</h2>
+        </div>
+        <div class="tags">
+    <div>Fried</div>
+    <div>Travel</div>
+    <div>New york</div>
+    <div>Dinner</div>
+    <div>Salmon</div>
+    <div>France</div>
+    <div>Drinks</div>
+    <div>Ideas</div>
+    <div>Flavours</div>
+    <div>Cuisine</div>
+    <div>chicken</div>
+    <div>dresssing</div>
+    <div>Fish</div>
+    <div>Duck</div>
+    </div>
+</div>
+
+</div>
+</body>
+</html>
